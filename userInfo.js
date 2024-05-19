@@ -9,8 +9,8 @@ function createUserProfiles(originalNames, modifiedNames) {
 }
 
 // Example usage
-const originalNames = ["Ebgert", "Jeff", "Charles", "Christian", "Ama"];
-const modifiedNames = ["EBGERT", "jeff", "CHARLES", "christian", "AMA"];
+const originalNames = ["Ebgert", "Jeff", "Charles", "Christian", "Aman"];
+const modifiedNames = ["EBGERT", "JEFF", "charles", "christian", "AMAN"];
 
 const userProfiles = createUserProfiles(originalNames, modifiedNames);
 console.log(userProfiles);
